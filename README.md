@@ -23,7 +23,21 @@ repositorio: `https://github.com/TecnologoInformatico/AdmInf-web.git`
 
 ```json
 {
-    "serverName": "",
-    "ip": ""
+    "serverName": "lsellanes.tecnologoinformatico.com",
+    "ip": "168.138.242.220"
 }
 ```
+
+# Tarea 06
+
+`1-mkdir repositorios`
+
+`4-mkdir /var/www/$ALUMNO`
+
+`5-chown -R ubuntu /var/www/$ALUMNO`
+
+`8-systemctl reload apache2`
+
+`9-cp -a ~/repositorios/AdmInf-web /var/www/lsellanes/`
+
+`10-curl lsellanes.tecnologoinformatico.com`
